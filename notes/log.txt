@@ -1,0 +1,169 @@
+log.txt
+
+# --
+2025-03-16 15:56:43
+
+https://github.com/p5videoKit/vite-p5-devo.git
+private repo
+
+npm install
+
+npm run build
+
+> hello-app@0.0.0 build
+> vite build --base=./
+
+vite v6.2.2 building for production...
+✓ 7 modules transformed.
+dist/index.html                 0.46 kB │ gzip: 0.30 kB
+dist/assets/index-Bdl7zLtw.css  1.21 kB │ gzip: 0.63 kB
+dist/assets/index-CsyE-vZe.js   2.66 kB │ gzip: 1.43 kB
+
+
+
+
+# --
+2025-03-16 15:40:24
+
+jht2@Mac viteDevo % npm run build
+
+> hello-app@0.0.0 build
+> vite build --base=./
+
+vite v6.2.2 building for production...
+✓ 7 modules transformed.
+dist/index.html                 0.46 kB │ gzip: 0.30 kB
+dist/assets/index-Bdl7zLtw.css  1.21 kB │ gzip: 0.63 kB
+dist/assets/index-CsyE-vZe.js   2.66 kB │ gzip: 1.43 kB
+✓ built in 45ms
+
+
+
+# --
+2025-03-11 17:07:25
+
+Move react-counter to top for vercel
+https://vercel.com/jht9629-nyus-projects/
+https://vercel.com/jht9629-nyus-projects/vite-devo
+
+
+# --
+2025-02-26 19:47:43
+
+https://jht9629-nyu.github.io/viteDevo/
+
+https://jht9629-nyu.github.io/viteDevo/preact-html
+
+viteDevo/preact-html
+
+# --
+2025-02-26 15:03:18
+
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries#react_tutorials
+
+
+
+# --
+2025-02-25 17:54:17
+
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Design_for_developers
+
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started
+
+npm create vite@latest moz-todo-react -- --template react
+
+npm run dev -- --open --port 3000
+
+package.json
+
+- "dev": "vite",
++ "dev": "vite --open --port 3000",
+
+https://scrimba.com/learn-react-c0e?via=mdn
+
+
+
+
+# --
+2025-02-24 08:18:01
+
+
+viteDevo/preact-html/index.html
+
+    <script type="importmap">
+      {
+        "imports": {
+          "preact": "https://esm.sh/preact@10.23.1",
+          "htm/preact": "https://esm.sh/htm@3.1.1/preact?external=preact",
+          "react": "https://esm.sh/preact@10.23.1/compat"
+        }
+      }
+    </script>
+
+
+# --
+
+
+https://preactjs.com/
+
+https://preactjs.com/guide/v10/getting-started#aliasing-react-to-preact
+
+https://preactjs.com/guide/v10/getting-started#aliasing-with-import-maps
+
+<script type="importmap">
+  {
+    "imports": {
+      "preact": "https://esm.sh/preact@10.23.1",
+      "preact/": "https://esm.sh/preact@10.23.1/",
+      "react": "https://esm.sh/preact@10.23.1/compat",
+      "react/": "https://esm.sh/preact@10.23.1/compat/",
+      "react-dom": "https://esm.sh/preact@10.23.1/compat",
+    }
+  }
+</script>
+
+https://preactjs.com/guide/v10/no-build-workflows#basic-usage
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="importmap">
+      {
+        "imports": {
+          "preact": "https://esm.sh/preact@10.23.1",
+          "htm/preact": "https://esm.sh/htm@3.1.1/preact?external=preact"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script type="module">
+      import { render } from 'preact';
+      import { html } from 'htm/preact';
+
+      export function App() {
+        return html`<h1>Hello, World!</h1>`;
+      }
+
+      render(html`<${App} />`, document.getElementById('app'));
+    </script>
+  </body>
+</html>
+
+https://preactjs.com/guide/v10/no-build-workflows#aliasing-react-to-preact
+
+<script type="importmap">
+  {
+    "imports": {
+      "preact": "https://esm.sh/preact@10.23.1",
+      "preact/": "https://esm.sh/preact@10.23.1/",
+      "react": "https://esm.sh/preact@10.23.1/compat",
+      "react/": "https://esm.sh/preact@10.23.1/compat/",
+      "react-dom": "https://esm.sh/preact@10.23.1/compat",
+      "@mui/material": "https://esm.sh/@mui/material@5.16.7?external=react,react-dom"
+    }
+  }
+</script>
+
