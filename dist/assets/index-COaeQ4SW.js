@@ -6,7 +6,8 @@
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${l}" class="logo vanilla" alt="JavaScript logo" />
     </a>
-    <h1>Hello Vite! 2025-03-16 </h1>
+    <h1>Hello Vite!</h1>
+    <h2>2025-03-16</h2>
     <div class="card">
       <button id="id_counter" type="button"></button>
       <button id="id_counter2" type="button"></button>
