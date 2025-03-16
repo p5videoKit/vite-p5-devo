@@ -23,5 +23,5 @@ id_app.innerHTML = `
   </div>
 `;
 
-setupCounter(id_counter);
-setupCounter(id_counter2);
+setupCounter('vote peace', id_counter);
+setupCounter('vote war', id_counter2);
