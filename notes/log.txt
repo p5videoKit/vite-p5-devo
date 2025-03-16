@@ -3,12 +3,13 @@ log.txt
 # --
 2025-03-16 15:56:43
 
+https://github.com/p5videoKit/vite-p5-devo.git
+private repo
+
 https://vercel.com/jht9629-nyus-projects/vite-p5-devo
 
 https://vite-p5-devo.vercel.app/
 
-https://github.com/p5videoKit/vite-p5-devo.git
-private repo
 
 npm install
 
