@@ -9,7 +9,7 @@ let my = {};
 
 function preload() {
   //
-  my.version = '?v=14';
+  my.version = '?v=8';
 
   let path = 'https://molab-itp.github.io/p5moLibrary/src/assets/';
   // on mobile device, switch to lower rez graphics

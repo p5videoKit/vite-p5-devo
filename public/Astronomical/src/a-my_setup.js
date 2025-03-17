@@ -1,7 +1,7 @@
 //
 function my_setup() {
   //
-  my.version = '?v=14';
+  my.version = '?v=8';
   my.bottomMargin = 40;
   my.canvas = createCanvas(windowWidth, windowHeight - my.bottomMargin);
   my.width = width;
