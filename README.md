@@ -19,6 +19,10 @@ npm run dev
 # build  to dist directory
 npm build
 
+# Dependent files determined by index.html
+# Unprocessed html/js in public folder
+# and reference in index.html
+
 ```
 
 ## Details
